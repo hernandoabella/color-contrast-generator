@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combinaciones de colores aleatorias</title>
+    <title>Combinaciones de colores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="app">
+        <header>
+            <div class="hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="title">
+                <h1>color mix app</h1>
+            </div>
+            <div class=".dark-mode-btn"></div>
+        </header>
 
-        <div class="example"><h1>Titulo</h1>
+        <div class="example">
+            <h1>Titulo</h1>
             <p>Lorem, ipsum dolor sit</p>
         </div>
 
@@ -27,13 +38,18 @@
                 <div class="value color-value-2">red</div>
             </div>
         </div>
-
-        
-        
         
         <div class="btn-container">
-            <button onclick="generar()">generar</button>
+            <button onclick="generar()">generar combinación</button>
         </div>
+
+        <footer>
+            <div class="bar-icons">
+                <div><i class="fa-solid fa-house active"></i></div>
+                <div><i class="fa-solid fa-bell"></i></div>
+                <div><i class="fa-solid fa-gear"></i></div>
+            </div>
+        </footer>
     </div>
     <script src="./script.js"></script>
 </body>
