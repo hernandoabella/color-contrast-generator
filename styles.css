@@ -10,7 +10,7 @@ body {
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
-.app {
+.container {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -20,10 +20,10 @@ body {
     padding: 10px;
     border-radius: 25px;
     /* ancho */
-    width: 300px; 
+    width: 300px;
     /* alto */
-    height: 500px; 
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: 500px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -87,7 +87,7 @@ header h1 {
 /* light color */
 .color2 {
     background: red;
-    
+
 }
 
 .line {
@@ -105,6 +105,7 @@ header h1 {
     font-size: 1.3em;
     border-radius: 25px;
     padding: 10px;
+    text-align: center;
 }
 
 .btn-container {
@@ -122,7 +123,7 @@ header h1 {
     cursor: pointer;
 }
 
-.bar-icons i.active{
+.bar-icons i.active {
     color: var(--negro);
 }
 
